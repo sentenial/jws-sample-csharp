@@ -1,10 +1,8 @@
-Build with
+Build the project with
 
-dotnet build
+`dotnet build`
 
-Run with
+Run the project with
 
-dotnet run
-
-Sample
+`dotnet run`
 
