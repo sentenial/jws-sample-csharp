@@ -46,7 +46,7 @@ public class SignatureUtils
 
         string header = Base64UrlEncode(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(map, Formatting.Indented)));
 
-        Console.Write("header :" + header);
+        Console.WriteLine("header :" + header);
 
         var os = new MemoryStream();
         os.Write(Encoding.UTF8.GetBytes(header));
